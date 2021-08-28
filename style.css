@@ -56,10 +56,13 @@ section{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
-    padding-bottom: 300px;
+    padding-bottom: 600px;
 }
 
 .exp-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
 
 }
 h4{
@@ -70,6 +73,23 @@ h4{
     box-shadow: 10px 10px 40px rgb(77, 75, 74);
     border-radius: 20px;
     height: 60%;
+    padding: fixed;
+    
 
     
+}
+#information{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(174, 167, 233), rgb(71, 89, 255));
+    border-image-slice: 1;
+
+}
+#education{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(225, 167, 233), rgb(249, 71, 255));
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
 }
