@@ -41,7 +41,7 @@ p{
 
 section{
     height: 500px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 
 .link-button{
@@ -57,6 +57,8 @@ section{
     background-repeat: no-repeat;
     background-position: right;
     padding-bottom: 600px;
+    
+    
 }
 
 .exp-area{
@@ -71,14 +73,12 @@ h4{
 
 .Inforamtion{
     box-shadow: 10px 10px 40px rgb(77, 75, 74);
-    border-radius: 20px;
-    height: 60%;
-    padding: fixed;
-    
-
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
     
 }
-#information{
+#info{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, rgb(174, 167, 233), rgb(71, 89, 255));
     border-image-slice: 1;
